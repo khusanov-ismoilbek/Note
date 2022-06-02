@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Note</string>
+
+    <string name="bottom_nav_note">Note</string>
+    <string name="bottom_nav_check">CheckList</string>
+    <string name="title">Title...</string>
+    <string name="enter_text_here">Enter text here</string>
+    <string name="note">NOTE</string>
+    <string name="check_list">Check List</string>
+    <string name="notes">Notes</string>
+    <string name="about">About</string>
+    <string name="rate">Rate the application</string>
+    <string name="share">Share</string>
+    <string name="trash_bin">Trash bin</string>
+    <string name="delete_note">Are you sure delete this note</string>
+    <string name="delete_check">Are you sure delete this check</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="about_dialog">Notes is the best place to jot down quick thoughts or to save longer notes filled with checklists, web links, scanned documents, handwritten notes, or sketches. This Notes is simple and very easy to use. Notepad is very useful tool. If you Hurry,need to note something,you can use this Notepad quickly because this is simple.</string>
+    <string name="created">Created by: Khusanov Ismoilbek</string>
+    <string name="contacts">Contact: <p><a href="khusanov.ismoilbek@gmail.com" style="color: red">khusanov.ismoilbek@gmail.com</a></p></string>
+    <string name="ok">ok</string>
+    <string name="splash">Notes and check list wherever you go</string>
+</resources>
