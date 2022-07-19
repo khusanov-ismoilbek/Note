@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainScreen"
-        android:name="uz.gita.note.presentation.ui.screen.MainScreen"
+        android:name="uz.gita.noteappgita.presentation.ui.screen.MainScreen"
         android:label="screen_main"
         tools:layout="@layout/screen_main" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/splashScreen"
-        android:name="uz.gita.note.presentation.ui.screen.SplashScreen"
+        android:name="uz.gita.noteappgita.presentation.ui.screen.SplashScreen"
         android:label="screen_splash"
         tools:layout="@layout/screen_splash" >
         <action
@@ -36,21 +36,21 @@
     </fragment>
     <fragment
         android:id="@+id/addCheckScreen"
-        android:name="uz.gita.note.presentation.ui.screen.AddCheckScreen"
+        android:name="uz.gita.noteappgita.presentation.ui.screen.AddCheckScreen"
         android:label="screen_add_check"
         tools:layout="@layout/screen_add_check" />
     <fragment
         android:id="@+id/addNoteScreen"
-        android:name="uz.gita.note.presentation.ui.screen.AddNoteScreen"
+        android:name="uz.gita.noteappgita.presentation.ui.screen.AddNoteScreen"
         android:label="screen_add_note"
         tools:layout="@layout/screen_add_note" />
     <fragment
         android:id="@+id/editNoteScreen"
-        android:name="uz.gita.note.presentation.ui.screen.EditNoteScreen"
+        android:name="uz.gita.noteappgita.presentation.ui.screen.EditNoteScreen"
         android:label="screen_edit_note"
         tools:layout="@layout/screen_edit_note" />
     <fragment
         android:id="@+id/editCheckScreen"
-        android:name="uz.gita.note.presentation.ui.screen.EditCheckScreen"
+        android:name="uz.gita.noteappgita.presentation.ui.screen.EditCheckScreen"
         android:label="EditCheckScreen" />
 </navigation>
