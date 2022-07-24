@@ -23,9 +23,9 @@ class NotePageViewModelImpl @Inject constructor(private val useCase: NotePageUse
     override fun load() {
         useCase.getAllNotes().onEach {
             loadNoteData.value = it
-            if (it.isNotEmpty()){
+            if (it.isNotEmpty()) {
                 notEmptyLiveData.value = Unit
-            }else{
+            } else {
                 emptyLiveData.value = Unit
             }
         }.launchIn(viewModelScope)

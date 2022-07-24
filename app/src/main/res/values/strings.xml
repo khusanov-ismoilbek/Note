@@ -18,7 +18,7 @@
     <string name="no">No</string>
     <string name="about_dialog">Notes is the best place to jot down quick thoughts or to save longer notes filled with checklists, web links, scanned documents, handwritten notes, or sketches. This Notes is simple and very easy to use. Notepad is very useful tool. If you Hurry,need to note something,you can use this Notepad quickly because this is simple.</string>
     <string name="created">Created by: Khusanov Ismoilbek</string>
-    <string name="contacts">Contact: <p><a href="khusanov.ismoilbek@gmail.com" style="color: red">khusanov.ismoilbek@gmail.com</a></p></string>
+    <string name="contacts">Contact: <p><a style="color: red" href="khusanov.ismoilbek@gmail.com">khusanov.ismoilbek@gmail.com</a></p></string>
     <string name="ok">ok</string>
     <string name="splash">Notes and check list wherever you go</string>
 </resources>

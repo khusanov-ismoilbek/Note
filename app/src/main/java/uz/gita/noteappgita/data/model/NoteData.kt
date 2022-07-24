@@ -9,4 +9,4 @@ data class NoteData(
     val time: String?,
     val isDeleted: Int,
     val isPinned: Int
-): Serializable
+) : Serializable

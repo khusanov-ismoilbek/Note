@@ -40,11 +40,11 @@
                 android:layout_marginStart="42dp"
                 android:ellipsize="end"
                 android:maxLines="1"
+                android:text="No title"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="@id/image"
-                app:layout_constraintTop_toTopOf="@id/image"
-                android:text="No title" />
+                app:layout_constraintTop_toTopOf="@id/image" />
 
             <org.wordpress.aztec.AztecText
                 android:id="@+id/description"

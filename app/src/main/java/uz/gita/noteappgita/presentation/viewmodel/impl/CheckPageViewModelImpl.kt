@@ -24,7 +24,7 @@ class CheckPageViewModelImpl @Inject constructor(private val checkPageUseCase: C
             getAllCheckLiveData.value = it
             if (it.isEmpty()) {
                 noDataLiveData.value = Unit
-            }else{
+            } else {
                 haveDataLiveData.value = Unit
             }
         }.launchIn(viewModelScope)

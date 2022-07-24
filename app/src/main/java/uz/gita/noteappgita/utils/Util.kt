@@ -1,3 +1,5 @@
+package uz.gita.noteappgita.utils
+
 import uz.gita.noteappgita.data.model.CheckData
 import uz.gita.noteappgita.data.model.NoteData
 import uz.gita.noteappgita.data.sources.entity.CheckEntity
@@ -14,7 +16,7 @@ fun NoteEntity.toNoteData(): NoteData {
     )
 }
 
-fun CheckEntity.toCheckData(): CheckData{
+fun CheckEntity.toCheckData(): CheckData {
     return CheckData(
         id,
         checkText,

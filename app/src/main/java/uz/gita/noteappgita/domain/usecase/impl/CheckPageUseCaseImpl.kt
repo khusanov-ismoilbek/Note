@@ -5,11 +5,11 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
-import toCheckData
 import uz.gita.noteappgita.data.model.CheckData
 import uz.gita.noteappgita.data.sources.entity.CheckEntity
 import uz.gita.noteappgita.domain.repository.AppRepository
 import uz.gita.noteappgita.domain.usecase.CheckPageUseCase
+import uz.gita.noteappgita.utils.toCheckData
 import javax.inject.Inject
 
 class CheckPageUseCaseImpl @Inject constructor(val appRepository: AppRepository) :

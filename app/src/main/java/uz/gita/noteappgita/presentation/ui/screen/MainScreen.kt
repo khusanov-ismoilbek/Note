@@ -11,9 +11,9 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
 import dagger.hilt.android.AndroidEntryPoint
+import uz.gita.noteAppGita.BuildConfig
 import uz.gita.noteAppGita.R
 import uz.gita.noteAppGita.databinding.ScreenMainBinding
-import uz.gita.noteappgita.BuildConfig
 import uz.gita.noteappgita.presentation.ui.adapter.PagerAdapter
 import uz.gita.noteappgita.presentation.ui.dialog.AboutDialog
 import uz.gita.noteappgita.presentation.viewmodel.MainViewModel

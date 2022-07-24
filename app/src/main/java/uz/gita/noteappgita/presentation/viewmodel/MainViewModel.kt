@@ -13,7 +13,6 @@ interface MainViewModel {
     val onCLickShareLiveData: LiveData<Unit>
 
 
-
     fun openDrawerLayout()
     fun closeDrawerLayout()
     fun onClickBottomNav(pos: Int)

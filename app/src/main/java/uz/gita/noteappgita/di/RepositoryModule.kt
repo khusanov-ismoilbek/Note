@@ -14,6 +14,6 @@ interface RepositoryModule {
 
     @Binds
     @Singleton
-    fun getRepository(impl: AppRepositoryImpl) : AppRepository
+    fun getRepository(impl: AppRepositoryImpl): AppRepository
 
 }

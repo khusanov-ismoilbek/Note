@@ -9,4 +9,4 @@ data class CheckData(
     val isDeleted: Int,
     val isPinned: Int,
     val state: Int
-): Serializable
+) : Serializable

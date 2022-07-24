@@ -11,5 +11,5 @@ interface CheckPageViewModel {
 
     fun loadAllData()
     fun onClickItem(data: CheckData)
-    fun onClickCheckBox(data : CheckData)
+    fun onClickCheckBox(data: CheckData)
 }

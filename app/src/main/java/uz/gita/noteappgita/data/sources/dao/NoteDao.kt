@@ -4,10 +4,10 @@ import androidx.room.*
 import uz.gita.noteappgita.data.sources.entity.NoteEntity
 
 @Dao
-interface NoteDao{
+interface NoteDao {
 
     @Insert()
-    fun insertNote(data : NoteEntity)
+    fun insertNote(data: NoteEntity)
 
     @Update
     fun updateNote(data: NoteEntity)
